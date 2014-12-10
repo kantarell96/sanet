@@ -42,7 +42,7 @@ padding:80px 0px;
 /*NAVBAR*/
 
 .container-fluid {
-  padding-left:0px;
+ padding-left:0px;
  
 }
 .navbar {
@@ -50,14 +50,27 @@ border-radius:0px;
 
 }
 
+.navbar-toggle {
+ float:left;
+ margin-left:15px;
+}
+
+
 .navbar-default {
- background:yellow;   
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf088), color-stop(100%,#f1da36)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #fcf088 0%,#f1da36 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #fcf088 0%,#f1da36 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #fcf088 0%,#f1da36 100%); /* IE10+ */
+-webkit-box-shadow: 9px 4px 26px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    9px 4px 26px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         9px 4px 26px 0px rgba(50, 50, 50, 0.5);
 }
 
 
 .nav > li > a {
 margin-left:-15px;
 padding:15px 25px;
+
 }
 
 .navbar-default .navbar-nav > li > a {
