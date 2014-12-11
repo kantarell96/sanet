@@ -39,6 +39,9 @@ background:orange;
 .navbar-default {
 border-radius:0px;
 border:0px;
+-webkit-box-shadow: 1px 1px 14px 0px rgba(0, 0, 0, 0.75);
+-moz-box-shadow:    1px 1px 14px 0px rgba(0, 0, 0, 0.75);
+box-shadow:         1px 1px 14px 0px rgba(0, 0, 0, 0.75);
 
 }
 .navbar-default .navbar-nav > li > a:hover {
@@ -68,36 +71,24 @@ ul.nav.navbar-nav{
   
      
  }
+ 
+ .upper-side-box {
+   
+ }
  /*SIDEMENU*/
  /*--------*/
- .btn-group-vertical {
-  float:left;
-  width:10%;
+ .navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header
+{float:none !important;}
   
- }
- .btn-group-vertical > .btn {
-  
- }
-  .btn-default {
-  color:#777;
-  font-family: 'Noto Sans', sans-serif;
-  font-size:15px;
-  }
-  .btn-default:hover {
-   background:white;   
-  }
-  .btn {
-   border-radius:0px;
-   padding: 10px 12px;
-  }
-  .btn-group-vertical > .btn:first-child:not(:last-child) {
-   border-top-right-radius: 0px;   
-  }
  /*--------*/
   /*SIDEMENU*/
  
  .slideshow img{
- 
+ float:left;
   
  }
 
