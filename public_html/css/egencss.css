@@ -10,7 +10,7 @@ background:#333;
 header {  
 width:100%;
 height:200px;
-background:orange;
+background:#f0ad4e;
 }
 
 
@@ -53,6 +53,9 @@ box-shadow:         1px 1px 14px 0px rgba(0, 0, 0, 0.75);
      
  }
  
+ .row:first-of-type {
+   margin-bottom:50px;
+ }
  .upper-side-box {
    
  }
