@@ -48,16 +48,17 @@ box-shadow:         1px 1px 14px 0px rgba(0, 0, 0, 0.75);
 }
 
  /*UPPERSECTION*/
- .uppersection {
-  
-     
- }
+ 
  
  .row:first-of-type {
    margin-bottom:50px;
  }
- .upper-side-box {
-   
+.carousel-control.right {
+    
+ background:none;   
+}
+ .carousel-control.left {
+ background:none;
  }
  /*SIDEMENU*/
  /*--------*/
@@ -65,10 +66,7 @@ box-shadow:         1px 1px 14px 0px rgba(0, 0, 0, 0.75);
  /*--------*/
   /*SIDEMENU*/
  
- .slideshow img{
- float:left;
-  
- }
+
 
  /* LOWERSECTION*/
  .lowersection {
