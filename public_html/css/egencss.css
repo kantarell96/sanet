@@ -10,7 +10,7 @@ background:#333;
 header {  
 width:100%;
 height:200px;
-background:#f0ad4e;
+background:#008ACC;
 }
 
 
@@ -25,6 +25,10 @@ background:#f0ad4e;
  margin-left:15px;
 }
 
+.navbar-right {
+ float: none !important;
+ margin-left:-15px;
+ }
 
 .navbar-default {
 border-radius:0px;
@@ -38,8 +42,6 @@ box-shadow:         1px 1px 14px 0px rgba(0, 0, 0, 0.75);
  background:#fff;  
 }
 
-
-
 .navbar-default .navbar-nav > li > a {
  font-size:15px;
  font-family: 'Noto Sans', sans-serif;
@@ -49,10 +51,10 @@ box-shadow:         1px 1px 14px 0px rgba(0, 0, 0, 0.75);
 
  /*UPPERSECTION*/
  
- 
- .row:first-of-type {
-   margin-bottom:50px;
+ .row{
+  margin-top:50px;    
  }
+ 
 .carousel-control.right {
     
  background:none;   
@@ -60,17 +62,28 @@ box-shadow:         1px 1px 14px 0px rgba(0, 0, 0, 0.75);
  .carousel-control.left {
  background:none;
  }
- /*SIDEMENU*/
- /*--------*/
-
- /*--------*/
-  /*SIDEMENU*/
- 
-
 
  /* LOWERSECTION*/
- .lowersection {
-     
+ .thumbnail {
+  border-radius:0px;
+  border:0px;
+  background:#fff;
+  
+ }
+ 
+ .thumbnail h3 {
+  font-size:18px;   
+ }
+ 
+ .thumbnail .btn {
+  border-radius:0px;
+  margin-top:15px;
+ 
+ }
+ 
+ .thumbnail .btn-default {
+  background:#0C5A7F;
+  color:#fff;
  }
  .bigwindow {
 
