@@ -1,7 +1,7 @@
 /*BODY*/
 body {
 background:#333;
-
+color:#fff;
 }
 
 /* HEADER*/
@@ -50,6 +50,7 @@ box-shadow:         1px 1px 14px 0px rgba(0, 0, 0, 0.75);
 
 
  /*UPPERSECTION*/
+
  
  .row{
   margin-top:50px;    
@@ -96,9 +97,17 @@ box-shadow:         1px 1px 14px 0px rgba(0, 0, 0, 0.75);
 
  .label {
    border-radius:0px;  
-  position:absolute;
+  
  }
 
+ a.infolinks{
+ color:#e55656;   
+ }
+ 
+ a.infolinks:hover {
+  text-decoration:none;   
+ }
+ 
 
 
 
